@@ -1,0 +1,172 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: "Aniron-7BaP";
+    src: url("https://raw.githubusercontent.com/fanya3/MyPrecious-Sass/master/Aniron-7BaP.ttf");
+  }
+  h2, li {
+    font-family: Aniron-7BaP;
+  }
+  
+  body {
+    background-image: url("https://raw.githubusercontent.com/fanya3/MyPrecious-Sass/master/bg_light.png");
+  }
+  
+  .ring-orange {
+    padding: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 2.5px solid #ff5f01;
+    box-shadow: 1.25px 1.25px 1px #cd4c00, inset 1.25px 1.25px 1px #cd4c00;
+    margin: 5px;
+  }
+  
+  .ring-yellow {
+    padding: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    border: 8.75px solid #fdcc09;
+    box-shadow: 4.375px 4.375px 3.5px #d1a802, inset 4.375px 4.375px 3.5px #d1a802;
+    margin: 15px;
+  }
+  
+  .ring-black-6 {
+    padding: 7.2px;
+    height: 7.2px;
+    width: 7.2px;
+    border-radius: 100%;
+    border: 1.8px solid #393939;
+    box-shadow: 0.9px 0.9px 0.72px #202020, inset 0.9px 0.9px 0.72px #202020;
+    margin-right: -7.2px;
+    margin-bottom: -18px;
+  }
+  
+  .ring-black-7 {
+    padding: 8.4px;
+    height: 8.4px;
+    width: 8.4px;
+    border-radius: 100%;
+    border: 2.1px solid #393939;
+    box-shadow: 1.05px 1.05px 0.84px #202020, inset 1.05px 1.05px 0.84px #202020;
+    margin-right: -8.4px;
+    margin-bottom: -18px;
+  }
+  
+  .ring-black-8 {
+    padding: 9.6px;
+    height: 9.6px;
+    width: 9.6px;
+    border-radius: 100%;
+    border: 2.4px solid #393939;
+    box-shadow: 1.2px 1.2px 0.96px #202020, inset 1.2px 1.2px 0.96px #202020;
+    margin-right: -9.6px;
+    margin-bottom: -18px;
+  }
+  
+  .ring-black-9 {
+    padding: 10.8px;
+    height: 10.8px;
+    width: 10.8px;
+    border-radius: 100%;
+    border: 2.7px solid #393939;
+    box-shadow: 1.35px 1.35px 1.08px #202020, inset 1.35px 1.35px 1.08px #202020;
+    margin-right: -10.8px;
+    margin-bottom: -18px;
+  }
+  
+  .ring-black-10 {
+    padding: 12px;
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    border: 3px solid #393939;
+    box-shadow: 1.5px 1.5px 1.2px #202020, inset 1.5px 1.5px 1.2px #202020;
+    margin-right: -12px;
+    margin-bottom: -18px;
+  }
+  
+  .ring-black-11 {
+    padding: 13.2px;
+    height: 13.2px;
+    width: 13.2px;
+    border-radius: 100%;
+    border: 3.3px solid #393939;
+    box-shadow: 1.65px 1.65px 1.32px #202020, inset 1.65px 1.65px 1.32px #202020;
+    margin-right: -13.2px;
+    margin-bottom: -18px;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  header {
+    background-color: #ff5f01;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  header img {
+    width: 200px;
+    margin-top: 8px;
+  }
+  header nav ul {
+    display: flex;
+  }
+  header nav ul .noline {
+    border: none;
+  }
+  header nav ul li {
+    list-style: none;
+    padding: 0 2vw 0 2vw;
+    border-right: solid white 2px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  footer {
+    background-color: #ff5f01;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer ul .twitter {
+    margin-top: -15px;
+  }
+  footer ul .logo-footer {
+    margin-top: 16px;
+  }
+  footer ul li {
+    list-style: none;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  }
+  footer ul li a img {
+    width: 150px;
+    margin-top: 11px;
+  }
